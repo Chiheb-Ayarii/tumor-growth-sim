@@ -1,0 +1,5 @@
+# Source de vérité des dépendances : pyproject.toml (dependencies +
+# [project.optional-dependencies]). Ce fichier installe le projet en mode
+# éditable avec ses extras de développement et le serveur MCP, pour éviter
+# de dupliquer les numéros de version à deux endroits qui pourraient diverger.
+-e .[dev,mcp]
